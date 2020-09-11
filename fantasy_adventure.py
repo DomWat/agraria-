@@ -36,11 +36,11 @@ def attack_a():
 
 def attack_b(): 
     for agi in range(2):
-        if agi > 10:
+        if agi > 11:
             chance = random.randint(0,20)
-            if chance > 15:
+            if chance > 17:
                 print("CRITICAL")
-            elif chance > 8:
+            elif chance > 10:
                 print("success! Nice strike.")
             else:
                 print("You missed.")
